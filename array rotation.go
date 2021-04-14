@@ -33,5 +33,6 @@ func shift(arr []int) []int {
 		arr[i] = arr[i+1]
 	}
 	arr[len(arr)-1] = tem
+
 	return arr
 }
